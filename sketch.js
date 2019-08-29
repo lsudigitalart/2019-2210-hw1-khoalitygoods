@@ -1,7 +1,17 @@
 function setup() {
     creatCanvas (800, 600);
-    // background (100);
-    FileList(255);
-    ellipse(10, 10, 20, 50,);
+    //  background (255, 255, 255); 
+    
+    fill (0);
+
+    noStroke ();
+    ellipse(100, 300, 100, 100);
+
+
+    strokeWeight (10)
+    noStroke ();
+    stroke (255);
+    ellipse(100, 300, 50, 50);
+
 
 }
